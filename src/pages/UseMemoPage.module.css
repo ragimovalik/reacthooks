@@ -1,0 +1,39 @@
+.title {
+  margin-block-end: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  border: solid 1px rgb(175, 170, 170);
+  border-radius: 6px;
+  padding-block: 1rem;
+}
+
+.input_wrap {
+  border: 1px solid gray;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.input_wrap > input {
+  padding-inline-start: 10px;
+}
+
+.data_screen {
+  width: 200px;
+  height: 50px;
+
+  padding: 5px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  font-size: x-large;
+  font-weight: bold;
+}

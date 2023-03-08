@@ -1,0 +1,14 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  font-size: x-large;
+
+  padding-block: 20px;
+}
+
+.flex > * {
+  flex: 0 1 50px;
+}

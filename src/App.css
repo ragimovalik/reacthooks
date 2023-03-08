@@ -1,0 +1,10 @@
+nav {
+  padding: 20px 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
