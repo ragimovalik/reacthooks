@@ -1,3 +1,5 @@
+import { FunctionComponent } from 'react';
+
 interface InputProps {
   name: string;
   id?: string | number;
