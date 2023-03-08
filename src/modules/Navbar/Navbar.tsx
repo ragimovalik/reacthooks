@@ -2,6 +2,8 @@ import { NavLink } from 'react-router-dom';
 
 import { navElements } from './nav-elements';
 
+import s from './Navbar.module.css';
+
 const Navbar = () => {
   const elements = navElements.map(
     ({ id, to, title }: { id: string | number; to: string; title: string }) => (
@@ -12,8 +14,8 @@ const Navbar = () => {
   );
 
   return (
-    <nav>
-      <ul>{elements}</ul>
+    <nav className={s.nav_box}>
+      <ul className={s.menu}>{elements}</ul>
     </nav>
   );
 };

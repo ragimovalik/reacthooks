@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className='page_positioning'>
       <Navbar />
       <AppRoutes />
     </div>
